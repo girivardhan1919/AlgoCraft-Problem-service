@@ -30,18 +30,18 @@ const problemSchema = new mongoose.Schema({
     codeStubs: [
         {
             language: {
-                type: string,
+                type: String,
                 enum: ["CPP", "JAVA", "PYTHON"],
                 required: true,
             },
             startSinppet: {
-                type: string,
+                type: String,
             },
             endSnippet: {
-                type: string,
+                type: String,
             },
             userSnippet: {
-                type: string,
+                type: String,
             }
         }
     ],
